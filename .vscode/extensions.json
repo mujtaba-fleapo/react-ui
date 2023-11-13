@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "streetsidesoftware.code-spell-checker",
+    "GraphQL.vscode-graphql-syntax",
+    "bradlc.vscode-tailwindcss"
+  ]
+}

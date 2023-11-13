@@ -1,0 +1,35 @@
+@import 'filepond/dist/filepond.min.css';
+@import 'filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css';
+@import 'filepond-plugin-file-poster/dist/filepond-plugin-file-poster.min.css';
+@import '@pqina/pintura/pintura.css';
+
+
+.filepond--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  flex: 1;
+}
+
+.filepond--root {
+  flex: 1;
+  width: auto;
+  padding: 10px;
+}
+
+
+.filepond--root[data-style-panel-layout~=circle] {
+  height: 200px !important;
+  width: 200px !important;
+  flex: none;
+}
+
+.filepond--list-scroller {
+  margin-bottom: 10px;
+}
+
+.filepond--item {
+  margin: 0 10px 5px !important;
+}
